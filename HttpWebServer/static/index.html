@@ -1,0 +1,53 @@
+<html>
+<body>
+
+<h1 style="color:rgb(0, 185, 124)">HTTP.Evidencija stanova</h1>
+<div class="form" method="POST">
+<table style="width: 30%;" class="table table-hover table-fixed">
+
+    <tr>
+      <th align="left">Broj stana (id): </th>
+      <th align="left" > <input type="text" min="0" maxlength="2" placeholder="123-45" style="width: 165px;" required name="brStana">  </th>
+    </tr>
+    <tr> 
+        <th align="left">Adresa: </th>
+        <th align="left" > <input type="text" required  name="adresa">  </th>
+     </tr>
+     <tr> 
+          <th align="left">Grad: </th> 
+          <th align="left" > <input type="text" required  name="grad">  </th>
+        </tr>
+    <tr>
+      <th align="left">Broj soba: </th>
+      <th align="left" > <input type="text" required  name="brSoba">  </th>
+     </tr>
+    <tr>
+      <th align="left" >Broj kvadrata: </th>
+      <th align="left" > <input type="text" required  name="brKvadrata">  </th>
+     </tr>
+    <tr>
+      <th align="left" >Centralno grejanje?: </th> 
+      <th align="left" > <input type="checkbox" required  name="centralno">  </th>
+    </tr>
+    <tr>
+      <th align="left">Cena: </th> 
+      <th align="left" > <input type="text" required  name="cena">  </th>
+    </tr>
+      <th align="right">HTTP: </th> 
+      <th align="left" > <button  type="submit" style="width:165px;" > <a href="../static/pregledStanova.html" style="color: black;">Posalji</a></button>  </th>
+    </tr>
+    <tr>
+      <th   align="right">Predji na JSP stranicu: </th>
+      <th align="left" > <button  style="width:165px;">jsp</button>  </th>
+    </tr>
+    <tr>
+      <th  align="right">REST: </th>
+      <th align="left" > <button  style="width:165px;">REST</button>  </th>
+    </tr>
+ 
+
+   
+</table>   
+</div>
+</body>
+</html>
